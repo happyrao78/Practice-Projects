@@ -1,0 +1,54 @@
+html {
+    margin: 0;
+  }
+  
+  span {
+    display: block;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: solid black 2px;
+    display: inline-block;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .button:hover{
+    transform: scale(1.1);
+    transition: 0.2ms ease-in;
+    
+  }
+  h1{
+    background-color: pink;
+    border-radius: 25px;
+    padding: 20px;
+
+  }
+  #grey {
+    background: grey;
+
+  }
+  #white{
+    background: white;
+  
+  }
+  #purple {
+    background: purple;
+  }
+  #blue {
+    background: blue;
+  }
+  #yellow {
+    background: yellow;
+  }
+  #red{
+    background: red;
+  }
+  
