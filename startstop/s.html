@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Happy Yadav's Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            transition: background-color 1s ease;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 50px;
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-transform: uppercase;
+        }
+
+        #start {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #start:hover {
+            background-color: #45a049;
+        }
+
+        #stop {
+            background-color: #f44336;
+            color: white;
+        }
+
+        #stop:hover {
+            background-color: #e53935;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Guess your Lucky Number</h1>
+    <button class="button" type="button" id="start">Start</button>
+    <button class="button" type="button" id="stop">Stop</button>
+    <script src="s.js"></script>
+</body>
+</html>

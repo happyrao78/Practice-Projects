@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Event KeyCodes</title>
+    
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: 20px auto;
+        background-color: #333;
+        color: #fff;
+      }
+      th,
+      td {
+        border: 1px solid #e7e7e7;
+        padding: 10px;
+        text-align: center;
+      }
+      th {
+        background-color: #444;
+        font-weight: bold;
+      }
+      tr:nth-child(even) {
+        background-color: #555;
+      }
+      tr:nth-child(odd) {
+        background-color: #666;
+      }
+      .project {
+        background-color: #1c1c1c;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+      .key {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      .color {
+        color: aliceblue;
+        display: flex;
+        flex-direction: row;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="project">
+      <div id="insert">
+        <div class="key">Press the key and watch magic</div>
+      </div>
+      <table>
+       
+        <tbody id="keyInfo">
+          <tr>
+            <td colspan="3">Press any key to get the key details</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="key.js"></script>
+  </body>
+</html>
